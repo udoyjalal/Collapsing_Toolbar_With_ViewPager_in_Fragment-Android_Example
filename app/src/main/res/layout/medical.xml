@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/allergies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allergies"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/allergierId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currentMedications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Medications"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/currentMedicationsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pastMedications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Past Medications"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/pastMedicationsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/chronicDiseases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chronic Diseases"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/chronicDiseasesId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/injuries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Injuries"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/injuriesId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/surgeries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surgeries"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/surgeriesId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
